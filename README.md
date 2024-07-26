@@ -1,37 +1,25 @@
 ### Hi TJ GitHub 👋
-![header](https://capsule-render.vercel.app/api?text=TJ%Git!😄) 
-<!--
-**dnwlwlq123/dnwlwlq123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-<h3 align="center">✨ Tech Stack ✨</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/react-20232a.svg?style=for-the-badge&logo=react&logoColor=61DAFB" />&nbsp
-  <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />&nbsp
-  <img src="https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />&nbsp
-</div>
+![header](https://capsule-render.vercel.app/api?text=TJ%20Git!😄)
+ 
 
+<h3 align="center">✨ 기술 스택 ✨</h3>
 <div align="center">
-  <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=ffd35b" />&nbsp
-  <img src="https://img.shields.io/badge/tailwindcss-1daabb.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/css3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />&nbsp
+  <img src="https://img.shields.io/badge/react.js-20232a.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React.js" />&nbsp;
+  <img src="https://img.shields.io/badge/spring-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />&nbsp;
+  <img src="https://img.shields.io/badge/spring%20boot-6DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />&nbsp;
+  <img src="https://img.shields.io/badge/Ajax-00599C.svg?style=for-the-badge&logo=ajax&logoColor=white" alt="Ajax" />&nbsp;
+  <img src="https://img.shields.io/badge/jquery-0769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery" />&nbsp;
+  <img src="https://img.shields.io/badge/WebSocket-000000.svg?style=for-the-badge&logo=websocket&logoColor=white" alt="WebSocket" />&nbsp;
+  <img src="https://img.shields.io/badge/python-3670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />&nbsp;
+  <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />&nbsp;
+  <img src="https://img.shields.io/badge/jenkins-D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />&nbsp;
+  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />&nbsp;
+  <img src="https://img.shields.io/badge/oracle-F80000.svg?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />&nbsp;
+  <img src="https://img.shields.io/badge/stomp-009CE6.svg?style=for-the-badge&logo=stomp&logoColor=white" alt="STOMP" />&nbsp;
+  <img src="https://img.shields.io/badge/jpa-9B4F60.svg?style=for-the-badge&logo=jpa&logoColor=white" alt="JPA" />&nbsp;
+  <img src="https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
 </div>
 
 <br>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />&nbsp
-  <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/numpy-4d77cf.svg?style=for-the-badge&logo=numpy&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/Matplotlib-11557c.svg?style=for-the-badge&logo=Matplotlib&logoColor=white" />&nbsp
-</div>
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 
