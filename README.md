@@ -1,14 +1,16 @@
 ### Hi TJ GitHub 👋
 
 ![header](https://capsule-render.vercel.app/api?text=TJ%20Git!😄)
-## 👋 Introduction
+# 👋 Introduction
 
-**"시련은 있지만 실패는 없다"**  
+*"시련은 있지만 실패는 없다"* 
 *김태진입니다!*
 ---
-🎓 **교육 배경**  
+### 🎓 
+
 IT와 프로그래밍의 역량을 확장하고자 NaverCloud 기반 DevOps 과정 수료  
 현재는 Python ML, DL, AI 개발자 과정에 참여하고 있습니다.
+
 ---
 
 <h3 align="center">✨ 기술 스택 ✨</h3>
