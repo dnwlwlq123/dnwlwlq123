@@ -24,14 +24,14 @@
   <br>
 
    <!-- Framework -->
-  <h4>Databases</h4>
+  <h4>Framework</h4>
   <img src="https://img.shields.io/badge/spring-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />&nbsp;
   <img src="https://img.shields.io/badge/spring%20boot-6DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />&nbsp;
  
   <br>
 
   <!-- DevOps -->
-  <h4>Server</h4>
+  <h4>DevOps</h4>
   <img src="https://img.shields.io/badge/jenkins-D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />&nbsp;
   <img src="https://img.shields.io/badge/docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />&nbsp;
   <img src="https://img.shields.io/badge/nginx-009639.svg?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />&nbsp;
@@ -64,7 +64,7 @@
   <br>
 
    <!-- Version control-->
-  <h4>Databases</h4>
+  <h4>Version control</h4>
   <img src="https://img.shields.io/badge/git-F05032.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />&nbsp;
   <img src="https://img.shields.io/badge/github-181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 
