@@ -63,6 +63,11 @@
 </div>
 
 <br>
+## 👋 Introduction
+
+**"시련은 있지만 실패는 없다" 김태진입니다!**  
+IT와 프로그래밍의 역량을 확장하고자 NaverCloud 기반 DevOps 과정 수료를 하였고
+Python ML, DL, AI 개발자 과정에 있습니다.
 
 <div align="center">
   <h3>📊 GitHub Stats 📊</h3>
