@@ -12,63 +12,48 @@
   <img src="https://img.shields.io/badge/css-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />&nbsp;
   <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript" />&nbsp;
   <img src="https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <br>
-
+  
   <!-- Backend -->
   <h4>Backend</h4>
   <img src="https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/java-007396.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/jpa-9B4F60.svg?style=for-the-badge&logo=jpa&logoColor=white" alt="JPA" />
   <img src="https://img.shields.io/badge/python-3670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />&nbsp;
-  <br>
-
+  
    <!-- Framework -->
   <h4>Framework</h4>
   <img src="https://img.shields.io/badge/spring-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />&nbsp;
   <img src="https://img.shields.io/badge/spring%20boot-6DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />&nbsp;
- 
-  <br>
-
+  
   <!-- DevOps -->
   <h4>DevOps</h4>
   <img src="https://img.shields.io/badge/jenkins-D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />&nbsp;
   <img src="https://img.shields.io/badge/docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />&nbsp;
   <img src="https://img.shields.io/badge/nginx-009639.svg?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />&nbsp;
   <img src="https://img.shields.io/badge/apache-D22128.svg?style=for-the-badge&logo=apache&logoColor=white" alt="Apache" />&nbsp;
- 
-  <br>
-
-
+  
   <!-- Databases -->
   <h4>Databases</h4>
   <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />&nbsp;
   <img src="https://img.shields.io/badge/oracle-F80000.svg?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
-
-  <br>
-
+  
   <!-- Data Science -->
   <h4>Data Science</h4>
   <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />&nbsp;
   <img src="https://img.shields.io/badge/numpy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />&nbsp;
   <img src="https://img.shields.io/badge/matplotlib-003E6C.svg?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib" />
-
-  <br>
-
+  
    <!-- Development Tools -->
   <h4>Development Tools</h4>
   <img src="https://img.shields.io/badge/intellij IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA" />&nbsp;
   <img src="https://img.shields.io/badge/eclipse-2C2255.svg?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse" />&nbsp;
   <img src="https://img.shields.io/badge/visual%20studio%20code-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" />
-
-  <br>
-
+  
    <!-- Version control-->
   <h4>Version control</h4>
   <img src="https://img.shields.io/badge/git-F05032.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />&nbsp;
   <img src="https://img.shields.io/badge/github-181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-
-  <br>
-
+  
   <!-- Protocols..😄 -->
   <h4>Protocols</h4>
   <img src="https://img.shields.io/badge/WebSocket-000000.svg?style=for-the-badge&logo=websocket&logoColor=white" alt="WebSocket" />&nbsp;
