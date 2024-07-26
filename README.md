@@ -23,4 +23,8 @@
   <img src="https://img.shields.io/badge/gradle-02303A.svg?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle" />
 </div>
 
+
+[![dnwlwlq123's GitHub stats](https://github-readme-stats.vercel.app/api?username=dnwlwlq123&include_all_commits=true&show_icons=true&theme=cobalt)](https://github.com/dnwlwlq123/github-readme-stats)
 <br>
+
+
