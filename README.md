@@ -1,7 +1,6 @@
 ### Hi TJ GitHub 👋
 
 ![header](https://capsule-render.vercel.app/api?text=TJ%20Git!😄)
- 
 
 <h3 align="center">✨ 기술 스택 ✨</h3>
 <div align="center">
@@ -18,8 +17,10 @@
   <img src="https://img.shields.io/badge/oracle-F80000.svg?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />&nbsp;
   <img src="https://img.shields.io/badge/stomp-009CE6.svg?style=for-the-badge&logo=stomp&logoColor=white" alt="STOMP" />&nbsp;
   <img src="https://img.shields.io/badge/jpa-9B4F60.svg?style=for-the-badge&logo=jpa&logoColor=white" alt="JPA" />&nbsp;
-  <img src="https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />&nbsp;
+  <img src="https://img.shields.io/badge/docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />&nbsp;
+  <img src="https://img.shields.io/badge/maven-C71A36.svg?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven" />&nbsp;
+  <img src="https://img.shields.io/badge/gradle-02303A.svg?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle" />
 </div>
 
 <br>
-
