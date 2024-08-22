@@ -26,7 +26,7 @@ IT와 프로그래밍의 역량을 확장하고자 **NaverCloud 기반 DevOps �
 
 ---
 
-<h3 align="center">✨ 기술 스택 ✨</h3>
+<h3 align="center">✨ Skill Stack ✨</h3>
 <div align="center">
   <!-- Frontend -->
   <h4>Frontend</h4>
