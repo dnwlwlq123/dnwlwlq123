@@ -2,8 +2,6 @@
 
 ![header](https://capsule-render.vercel.app/api?text=TJ%20Git!😄)
 # 👋 Introduction
-
-*"시련은 있지만 실패는 없다"*  
 *김태진입니다!*
 
 ---
