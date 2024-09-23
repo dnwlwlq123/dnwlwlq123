@@ -74,7 +74,7 @@ IT와 프로그래밍의 역량을 확장하고자 **NaverCloud 기반 DevOps �
   <h4>Development Tools</h4>
   <img src="https://img.shields.io/badge/intellij IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA" />&nbsp;
   <img src="https://img.shields.io/badge/eclipse-2C2255.svg?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse" />&nbsp;
-  <img src="https://img.shields.io/badge/visual%20studio%20code-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" />>&nbsp;
+  <img src="https://img.shields.io/badge/visual%20studio%20code-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" />&nbsp;
   <img src="https://img.shields.io/badge/jupyter-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
   
    <!-- Version control-->
