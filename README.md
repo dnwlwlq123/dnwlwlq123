@@ -64,6 +64,8 @@ IT와 프로그래밍의 역량을 확장하고자 **NaverCloud 기반 DevOps �
   
   <!-- Data Science -->
   <h4>Data Science</h4>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />&nbsp;
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />&nbsp;
   <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />&nbsp;
   <img src="https://img.shields.io/badge/numpy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />&nbsp;
   <img src="https://img.shields.io/badge/matplotlib-003E6C.svg?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib" />
@@ -72,7 +74,8 @@ IT와 프로그래밍의 역량을 확장하고자 **NaverCloud 기반 DevOps �
   <h4>Development Tools</h4>
   <img src="https://img.shields.io/badge/intellij IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA" />&nbsp;
   <img src="https://img.shields.io/badge/eclipse-2C2255.svg?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse" />&nbsp;
-  <img src="https://img.shields.io/badge/visual%20studio%20code-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" />
+  <img src="https://img.shields.io/badge/visual%20studio%20code-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" />>&nbsp;
+  <img src="https://img.shields.io/badge/jupyter-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
   
    <!-- Version control-->
   <h4>Version control</h4>
