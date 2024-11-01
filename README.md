@@ -88,14 +88,6 @@ IT와 프로그래밍의 역량을 확장하고자 **NaverCloud 기반 DevOps �
 </div>
 
 <br>
-
-<div align="center">
-  <h3>📊 GitHub Stats 📊</h3>
-  <a href="https://github.com/dnwlwlq123">
-    <img src="https://github-readme-stats.vercel.app/api?username=dnwlwlq123&include_all_commits=true&show_icons=true&theme=cobalt" alt="dnwlwlq123's GitHub stats">
-  </a>
-  
-  <br>
   
   <h3>🌟 Top Languages 🌟</h3>
   <a href="https://github.com/dnwlwlq123">
