@@ -44,6 +44,7 @@ IT와 프로그래밍의 역량을 확장하고자 **NaverCloud 기반 DevOps �
   
    <!-- Framework -->
   <h4>Framework</h4>
+  <img src="https://img.shields.io/badge/fastapi-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />&nbsp;
   <img src="https://img.shields.io/badge/spring-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />&nbsp;
   <img src="https://img.shields.io/badge/spring%20boot-6DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />&nbsp;
   
@@ -58,6 +59,7 @@ IT와 프로그래밍의 역량을 확장하고자 **NaverCloud 기반 DevOps �
   <!-- Databases -->
   <h4>Databases</h4>
   <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />&nbsp;
+  <img src="https://img.shields.io/badge/vectordb-666666.svg?style=for-the-badge&logo=database&logoColor=white" alt="VectorDB" />&nbsp;
   <img src="https://img.shields.io/badge/oracle-F80000.svg?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
   
   <!-- Data Science -->
@@ -70,6 +72,7 @@ IT와 프로그래밍의 역량을 확장하고자 **NaverCloud 기반 DevOps �
   
    <!-- Development Tools -->
   <h4>Development Tools</h4>
+  <img src="https://img.shields.io/badge/pycharm-000000.svg?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm" />&nbsp;
   <img src="https://img.shields.io/badge/intellij IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA" />&nbsp;
   <img src="https://img.shields.io/badge/eclipse-2C2255.svg?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse" />&nbsp;
   <img src="https://img.shields.io/badge/visual%20studio%20code-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" />&nbsp;
