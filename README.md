@@ -14,7 +14,7 @@
 > **LLM 서빙 인프라**와 **Korean ASR** 도메인의 엔지니어입니다.
 >
 > 콜봇/AICC 환경에서 vLLM 기반 추론 서빙 최적화와
-> ESPnet/NeMo 기반 한국어 음성 인식 모델 파인튜닝을 다룹니다.
+> ESPnet/NeMo/Whisper 기반 한국어 음성 인식 모델 파인튜닝을 다룹니다.
 >
 > 추측보다 **실측 벤치마크**, 화려한 스펙보다 **운영 안정성**을 우선합니다.
 
@@ -24,7 +24,7 @@
 
 ### LLM Inference Serving
 프로덕션 환경에서 **수십 채널 동시 처리**를 견디는 LLM 서빙 스택을 설계하고 최적화합니다.
-attention backend 선택, KV cache 양자화, MoE 라우팅, speculative decoding 같은 추론 레이어 전반을 직접 검증해 **TTFT / ITL / Throughput** 트레이드오프를 실측 기반으로 결정합니다.
+attention backend 선택, KV cache 양자화, MoE 라우팅, speculative decoding 같은 추론 레이어 전반을 직접 검증해 **TTFT99 / ITL99 / Throughput** 트레이드오프 등등 실측 기반으로 결정합니다.
 
 ### Kernel-Level Diagnosis
 vLLM 파이프라인은 한 레이어만 봐서는 병목이 안 잡힙니다.
