@@ -1,101 +1,86 @@
-## Hi TJ GitHub 👋
+👋 About Me
+LLM 서빙 인프라와 Korean ASR 도메인에서 일하는 엔지니어입니다.
+프로덕션 환경의 콜봇/AICC 스택에서 vLLM 기반 추론 최적화와 ESPnet/NeMo 기반 음성 인식 모델 파인튜닝을 담당합니다.
+추측보다 실측 벤치마크, 화려한 스펙보다 운영 안정성을 우선합니다.
 
-![header](https://capsule-render.vercel.app/api?text=TJ%20Git!😄)
-# 👋 Introduction
-*김태진입니다!*
+🛠️ 주요 작업 영역
+LLM Inference Serving
 
----
+vLLM 기반 콜봇 서빙 스택 운영 및 최적화
+FlashAttention 4 / FlashInfer / TensorRT-LLM 백엔드 비교 분석
+FP8 양자화 (runtime quantization, KV cache, MoE) 실측 검증
+Multi-LoRA hot-swap 및 dummy adapter 구조 설계
+EAGLE3 speculative decoding 적용 검토
+50채널급 동시 처리 가용성 벤치마크
 
-### 🎓 교육 배경
+Korean ASR
 
-NaverCloud 기반 DevOps 과정 & AI 개발자 과정을 통해 IT 역량을 확장했습니다. 딥러닝과 LLM 기술을 심화 학습하며 전문성을 쌓았습니다.
+ESPnet contextual block transformer 기반 8kHz 콜센터 ASR
+NVIDIA NeMo Nemotron 0.6B Korean ASR 4-stage 파인튜닝
+20,000h 데이터셋 분산 학습 (B200×4 환경)
+VAD 기반 EPD(End-Point Detection) head 설계
+Whisper LoRA 파인튜닝 (폐쇄망 환경)
+CTranslate2 기반 STT 서비스 운영
 
----
+Infra & Deployment
 
-### 💼 나의 목표
+Kubernetes / ArgoCD / Helm 기반 vLLM Gateway 배포
+Jenkins CI 파이프라인 운영
+온프레미스 / RunPod / Elice Cloud 멀티 클러스터 운영 경험
+H100 SXM, RTX PRO 6000 Blackwell, B200 등 다양한 SM 아키텍처 검증
 
-- **딥러닝과 LLM 분야에서의 전문성**  
-  컴퓨터 비전, 자연어 처리, 생성형 AI를 활용한 솔루션을 개발합니다.
-- **최신 AI 기술 트렌드에 대한 깊은 이해**  
-  딥러닝 아키텍처와 LLM 기술 동향을 연구하고 실무에 적용합니다.
-- **지속적인 학습과 성장**  
-  AI 기술의 빠른 발전에 발맞춰 새로운 도전을 이어갑니다.
 
----
-
-<h3 align="center">✨ Skill Stack ✨</h3>
+🧰 Tech Stack
 <div align="center">
-  <!-- Frontend -->
-  <h4>Frontend</h4>
-  <img src="https://img.shields.io/badge/react.js-20232a.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React.js" />&nbsp;
-  <img src="https://img.shields.io/badge/Ajax-00599C.svg?style=for-the-badge&logo=ajax&logoColor=white" alt="Ajax" />&nbsp;
-  <img src="https://img.shields.io/badge/jquery-0769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery" />&nbsp;
-  <img src="https://img.shields.io/badge/css-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />&nbsp;
-  <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript" />&nbsp;
-  <img src="https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  
-  <!-- Backend -->
-  <h4>Backend</h4>
-  <img src="https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/java-007396.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/jpa-9B4F60.svg?style=for-the-badge&logo=jpa&logoColor=white" alt="JPA" />
-  <img src="https://img.shields.io/badge/python-3670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />&nbsp;
-  
-   <!-- Framework -->
-  <h4>Framework</h4>
-  <img src="https://img.shields.io/badge/fastapi-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />&nbsp;
-  <img src="https://img.shields.io/badge/spring-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />&nbsp;
-  <img src="https://img.shields.io/badge/spring%20boot-6DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />&nbsp;
-  
-  <!-- DevOps -->
-  <h4>DevOps</h4>
-  <img src="https://img.shields.io/badge/Naver%20Cloud-00C853.svg?style=for-the-badge&logo=cloud&logoColor=white" alt="Naver Cloud" />
-  <img src="https://img.shields.io/badge/jenkins-D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />&nbsp;
-  <img src="https://img.shields.io/badge/docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />&nbsp;
-  <img src="https://img.shields.io/badge/nginx-009639.svg?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />&nbsp;
-  <img src="https://img.shields.io/badge/apache-D22128.svg?style=for-the-badge&logo=apache&logoColor=white" alt="Apache" />&nbsp;
-  
-  <!-- Databases -->
-  <h4>Databases</h4>
-  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />&nbsp;
-  <img src="https://img.shields.io/badge/vectordb-666666.svg?style=for-the-badge&logo=database&logoColor=white" alt="VectorDB" />&nbsp;
-  <img src="https://img.shields.io/badge/oracle-F80000.svg?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
-  
-  <!-- Data Science -->
-  <h4>Data Science</h4>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />&nbsp;
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />&nbsp;
-  <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />&nbsp;
-  <img src="https://img.shields.io/badge/numpy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />&nbsp;
-  <img src="https://img.shields.io/badge/matplotlib-003E6C.svg?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib" />
-  
-   <!-- Development Tools -->
-  <h4>Development Tools</h4>
-  <img src="https://img.shields.io/badge/pycharm-000000.svg?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm" />&nbsp;
-  <img src="https://img.shields.io/badge/intellij IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA" />&nbsp;
-  <img src="https://img.shields.io/badge/eclipse-2C2255.svg?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse" />&nbsp;
-  <img src="https://img.shields.io/badge/visual%20studio%20code-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" />&nbsp;
-  <img src="https://img.shields.io/badge/jupyter-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
-  
-   <!-- Version control-->
-  <h4>Version control</h4>
-  <img src="https://img.shields.io/badge/git-F05032.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />&nbsp;
-  <img src="https://img.shields.io/badge/github-181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  
-  <!-- Protocols..😄 -->
-  <h4>Protocols</h4>
-  <img src="https://img.shields.io/badge/WebSocket-000000.svg?style=for-the-badge&logo=websocket&logoColor=white" alt="WebSocket" />&nbsp;
-  <img src="https://img.shields.io/badge/stomp-009CE6.svg?style=for-the-badge&logo=stomp&logoColor=white" alt="STOMP" />&nbsp;
-  <img src="https://img.shields.io/badge/sock.js-FF5C5C.svg?style=for-the-badge&logo=sockjs&logoColor=white" alt="SockJS" />
+Inference & Optimization
+<br/>
+<img src="https://img.shields.io/badge/vLLM-1E40AF?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/FlashAttention-FF6B35?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/FlashInfer-7C3AED?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/TensorRT--LLM-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+<img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+ML Frameworks
+<br/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/NeMo-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+<img src="https://img.shields.io/badge/ESPnet-1E40AF?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/CTranslate2-4A90E2?style=for-the-badge&logoColor=white" />
+Languages
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+Backend & Serving
+<br/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+DevOps & Infra
+<br/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" />
+<img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+<img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+Hardware
+<br/>
+<img src="https://img.shields.io/badge/NVIDIA%20H100-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+<img src="https://img.shields.io/badge/NVIDIA%20B200-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+<img src="https://img.shields.io/badge/Blackwell%20SM120-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
 </div>
 
-<br>
-  
-  <h3>🌟 Top Languages 🌟</h3>
-  <a href="https://github.com/dnwlwlq123">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dnwlwlq123&layout=compact" alt="Top Languages">
-  </a>
+📊 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dnwlwlq123&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dnwlwlq123&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" />
 </div>
 
-
-<br>
+📫 Contact
+작업 관련 문의나 협업 제안은 GitHub Issue 또는 Email로 부탁드립니다.
+dnwlwlq123@naver.com
+<!--
+운영 환경 기준 실측 데이터를 우선합니다.
+공식 문서/PR/실측 결과를 바탕으로 의사결정합니다.
+-->
