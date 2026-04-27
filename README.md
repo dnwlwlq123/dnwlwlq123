@@ -26,6 +26,10 @@
 프로덕션 환경에서 **수십 채널 동시 처리**를 견디는 LLM 서빙 스택을 설계하고 최적화합니다.
 attention backend 선택, KV cache 양자화, MoE 라우팅, speculative decoding 같은 추론 레이어 전반을 직접 검증해 **TTFT / ITL / Throughput** 트레이드오프를 실측 기반으로 결정합니다.
 
+### Kernel-Level Diagnosis
+vLLM 파이프라인은 한 레이어만 봐서는 병목이 안 잡힙니다.
+**attention kernel · MoE kernel · quantization · CUDA graph · prefix caching**이 서로 얽혀 있어, 모델 구조 (head_dim, sliding window, MoE expert 수) 와 GPU 아키텍처 (SM 버전, Tensor Core 지원) 를 함께 봐야 합니다. 이 파이프라인 전체를 따라가며 **어디서 fallback이 발생하는지**, **어떤 kernel이 호출되는지** 추적해 문제를 좁혀냅니다.
+
 ### Korean ASR
 콜센터 8kHz 도메인 위주로 **한국어 ASR 모델 파인튜닝**과 서빙 파이프라인을 구축합니다.
 ESPnet contextual block transformer, NeMo Nemotron, Whisper 라인을 다루며, 노이즈 토큰 처리·커스텀 vocab·VAD 기반 EPD 같은 도메인 특화 이슈를 해결합니다.
@@ -45,6 +49,15 @@ Kubernetes / ArgoCD / Helm 기반 GitOps 파이프라인으로 **온프레미스
 - **Adapter**: Multi-LoRA hot-swap, dummy adapter, runtime quantization + LoRA
 - **Speculative Decoding**: EAGLE3, draft model 검증
 - **Structured Output**: response_format, guided decoding
+
+### GPU Kernel & Low-Level Stack
+- **Attention Kernel**: FA2/FA3/FA4 차이 (MLA prefill, paged KV, head_dim 호환성), FlashInfer CUTLASS 경로, Triton fallback 조건
+- **MoE Kernel**: CUTLASS MoE FP8, Triton MoE fallback, fused routing, GDN (Gated Delta Net) prefill 제약
+- **Quantization Kernel**: FP8 W8A8, FP8 block-wise, K/V scale 로딩, runtime quant + LoRA 호환성
+- **CUDA Graph**: piecewise / full capture, `enforce-eager`, LoRA + CUDA graph 충돌 패턴
+- **Memory Layout**: paged attention block size, KV cache 분배, sliding window 영향
+- **Compatibility 진단**: SM 버전 ↔ kernel 지원 매트릭스, driver / CUDA / PyTorch / vLLM 버전 호환성 추적
+- **Diagnosis Tools**: `nvidia-smi`, `nsys` 프로파일링, vLLM 내부 로그 (backend selection / fallback warning)
 
 ### ASR & Speech
 - **Frameworks**: ESPnet, NVIDIA NeMo, HuggingFace Transformers
@@ -73,7 +86,7 @@ Kubernetes / ArgoCD / Helm 기반 GitOps 파이프라인으로 **온프레미스
 
 | Category | Stack |
 |---|---|
-| **Inference** | ![vLLM](https://img.shields.io/badge/vLLM-1E40AF?style=flat-square) ![FlashAttention](https://img.shields.io/badge/FlashAttention-FF6B35?style=flat-square) ![FlashInfer](https://img.shields.io/badge/FlashInfer-7C3AED?style=flat-square) ![TensorRT-LLM](https://img.shields.io/badge/TensorRT--LLM-76B900?style=flat-square&logo=nvidia&logoColor=white) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) |
+| **Inference** | ![vLLM](https://img.shields.io/badge/vLLM-1E40AF?style=flat-square) ![FlashAttention](https://img.shields.io/badge/FlashAttention-FF6B35?style=flat-square) ![FlashInfer](https://img.shields.io/badge/FlashInfer-7C3AED?style=flat-square) ![TensorRT-LLM](https://img.shields.io/badge/TensorRT--LLM-76B900?style=flat-square&logo=nvidia&logoColor=white) ![CUTLASS](https://img.shields.io/badge/CUTLASS-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Triton](https://img.shields.io/badge/Triton-9C27B0?style=flat-square) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) |
 | **ML / DL** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![NeMo](https://img.shields.io/badge/NVIDIA%20NeMo-76B900?style=flat-square&logo=nvidia&logoColor=white) ![ESPnet](https://img.shields.io/badge/ESPnet-1E40AF?style=flat-square) ![CTranslate2](https://img.shields.io/badge/CTranslate2-4A90E2?style=flat-square) |
 | **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) |
 | **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
@@ -86,7 +99,7 @@ Kubernetes / ArgoCD / Helm 기반 GitOps 파이프라인으로 **온프레미스
 - **Email**: [dnwlwlq123@naver.com](mailto:dnwlwlq123@naver.com)
 - **GitHub**: [@dnwlwlq123](https://github.com/dnwlwlq123)
 
-작업 관련 문의나 협업 제안은 Email 또는 GitHub Issue로 부탁드립니다.
+작업 관련 문의나 이슈는 Email 또는 GitHub Issue로 부탁드립니다.
 
 <!--
 운영 환경 기준 실측 데이터를 우선합니다.
